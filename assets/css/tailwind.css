@@ -1,0 +1,25 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles */
+@media (max-width: 640px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+}

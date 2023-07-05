@@ -1,0 +1,41 @@
+@import 'tailwind.css';
+
+/* Custom styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Navbar styles */
+#navbar {
+    background-color: #333;
+    color: #fff;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+/* Main content styles */
+#main {
+    padding: 20px;
+}
+
+/* Footer styles */
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    #navbar, #footer {
+        padding: 10px;
+    }
+}
